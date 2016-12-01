@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>gtsam_ros</name>
+  <version>0.0.0</version>
+  <description>The gtsam_ros package to support gtest unit testing of GTSAM datatypes</description>
+  <maintainer email="stephen.w@bnrobotics.com">Stephen Williams</maintainer>
+  <author email="stephen.w@bnrobotics.com">Stephen Williams</author>
+  <license>TODO</license>
+  <!-- <url type="website">http://ros.org/wiki/gtsam_ros</url> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>libgtsam-dev</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>libgtsam-dev</run_depend>
+  <run_depend>roscpp</run_depend>
+  <test_depend>gtest</test_depend>
+
+</package>
